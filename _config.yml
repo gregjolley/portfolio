@@ -1,0 +1,20 @@
+# Site settings
+title: Greg Jolley -- electronics projects
+email: greg.s.jolley@gmail.com
+description: >
+  Electronics projects
+  - The design of low-noise, high performance linear power supply
+  - The design, simulation and characterisation of a class-B audio power amplifier
+baseurl: ""
+url: "http://gregjolley.github.io" # the base hostname & protocol for your site
+github_username:  gregjolley
+timezone: Australia/Sydney
+theme: jekyll-theme-tactile
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
